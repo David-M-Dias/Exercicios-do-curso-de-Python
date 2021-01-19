@@ -13,14 +13,12 @@ limiteParcela = salario * ( 30 / 100) #limite da parcela no valor y para 30% de 
 
 parcelaMensal = emprestimoPretendido / meses
 
-print(parcelaMensal)
-print(limiteParcela)
-
 if parcelaMensal > limiteParcela:
     print("Caro {}, Lamentamos informar mas o emprestimo no valor de R${:.2f} foi negado.\nPois a parcela no valor de R${:.2f} execede o limite mensal programado.".format(nome,emprestimoPretendido,parcelaMensal))
 
 else:
-    print("{} seu emprestimo foi aprovado!".format(nome))
+    print("\n{} seu emprestimo foi aprovado!".format(nome))
+    print("As parcelas serão no valor de {:.2f} e deverão ser pagas em {} meses.".format(parcelaMensal,meses))
     
 
 
