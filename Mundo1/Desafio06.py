@@ -6,4 +6,4 @@ dobro = n*2
 triplo = n*3
 raizQuadrada = n**2
 #raiz2 = n*n segunda forma de se fazer raiz
-print(" O dobro:{} \n O triplo: {} \n A Raiz Quadrada : {}".format(dobro,triplo,raizQuadrada)
+print(" O dobro:{} \n O triplo: {} \n A Raiz Quadrada : {}".format(dobro,triplo,raizQuadrada))
