@@ -1,3 +1,5 @@
+#Exercício Python 3: Crie um programa que leia dois números e mostre a soma entre eles.
+
 nome = str(input("Digite seu nome: "))
 print("Olá {}, tudo bem?".format(nome))
 print("Espero que sim!... \nMeu nome e VanTec-9000, e hoje eu vou te ajudar com uma soma!")
